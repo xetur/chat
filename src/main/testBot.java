@@ -12,10 +12,12 @@ public class testBot {
         ChatterBot bot1 = factory.create(ChatterBotType.CLEVERBOT);
         ChatterBotSession bot1session = bot1.createSession();
 
-        ChatterBot bot2 = factory.create(ChatterBotType.PANDORABOTS, "b0dafd24ee35a477");
+        ChatterBot bot2 = factory.create(ChatterBotType.CLEVERBOT, "b0dafd24ee35a477");
         ChatterBotSession bot2session = bot2.createSession();
+        
+        
 
-        String s = "";
+        String s = "fuck you";
         while (true) {
 
             System.out.println("bot1> " + s);
